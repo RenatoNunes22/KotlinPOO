@@ -4,20 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f5e574-d75c-4dcb-a75a-9d2f88254730" name="Changes" comment="Fim treinamento básico kotlin">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/ClienteTipo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Enum.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Funcionario.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Pessoa.kt" afterDir="false" />
+    <list default="true" id="c4f5e574-d75c-4dcb-a75a-9d2f88254730" name="Changes" comment="Abstração">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Analista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Gerente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/ImprimeRelatorioFuncionario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Funcionario.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Banco Teste.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Banco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Pessoa.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/consoleApp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/consoleApp.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Pessoa$Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Funcionario.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/PessoaKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Teste/Teste_FuncionarioKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Teste/Teste_FuncionarioKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Teste/Teste_PessoaKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +29,8 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -125,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656286689158</updated>
       <workItem from="1656286690739" duration="5145000" />
-      <workItem from="1656336422548" duration="2687000" />
+      <workItem from="1656336422548" duration="6292000" />
     </task>
     <task id="LOCAL-00001" summary="incluido private set e inner class">
       <created>1656296519195</created>
@@ -148,7 +148,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656299439929</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Abstração">
+      <created>1656339229638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656339229638</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Abstração">
+      <created>1656339356823</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656339356823</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +183,7 @@
     <MESSAGE value="incluido private set e inner class" />
     <MESSAGE value="Classe conta" />
     <MESSAGE value="Fim treinamento básico kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fim treinamento básico kotlin" />
+    <MESSAGE value="Abstração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstração" />
   </component>
 </project>
