@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f5e574-d75c-4dcb-a75a-9d2f88254730" name="Changes" comment="Abstração">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Analista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Gerente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/ImprimeRelatorioFuncionario.kt" afterDir="false" />
+    <list default="true" id="c4f5e574-d75c-4dcb-a75a-9d2f88254730" name="Changes" comment="POO kotlin">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Logavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Autenticacao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Cliente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Gerente.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Teste/Teste_Pessoa.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/consoleApp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/consoleApp.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Funcionario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Funcionario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Gerente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Gerente.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Teste/Teste_FuncionarioKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/digonebank/Teste/Teste_FuncionarioKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/digonebank/Teste/Teste_PessoaKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +26,9 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Enum" />
-        <option value="Kotlin File" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -59,16 +57,16 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.Teste_FuncionarioKt">
-    <configuration name="PessoaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="digonebank.PessoaKt" />
+  <component name="RunManager" selected="Kotlin.Teste_ClienteKt">
+    <configuration name="Teste_BancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="digonebank.Teste.Teste_BancoKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste_BancoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="digonebank.Teste.Teste_BancoKt" />
+    <configuration name="Teste_ClienteKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="digonebank.Teste.Teste_ClienteKt" />
       <module name="consoleApp" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -108,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Teste_ClienteKt" />
         <item itemvalue="Kotlin.Teste_FuncionarioKt" />
         <item itemvalue="Kotlin.Teste_PessoaKt" />
         <item itemvalue="Kotlin.Teste_EnumKt" />
         <item itemvalue="Kotlin.Teste_BancoKt" />
-        <item itemvalue="Kotlin.PessoaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656286689158</updated>
       <workItem from="1656286690739" duration="5145000" />
-      <workItem from="1656336422548" duration="6292000" />
+      <workItem from="1656336422548" duration="8875000" />
     </task>
     <task id="LOCAL-00001" summary="incluido private set e inner class">
       <created>1656296519195</created>
@@ -162,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656339356823</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="POO kotlin">
+      <created>1656349828108</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656349828108</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +189,7 @@
     <MESSAGE value="Classe conta" />
     <MESSAGE value="Fim treinamento básico kotlin" />
     <MESSAGE value="Abstração" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstração" />
+    <MESSAGE value="POO kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO kotlin" />
   </component>
 </project>
