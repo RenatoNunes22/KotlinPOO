@@ -8,11 +8,13 @@ class Pessoa {
     inner class Endereco{
         var rua : String = "Rua Teste"
     }
+
+    constructor()
+
+    fun pessoa1() = "$nome e $cpf"
 }
 
 fun main(){
     val jether = Pessoa();
-    println(jether.nome);
-    println(jether.cpf);
-    println(jether.Endereco().rua);
+    println(jether.pessoa1())
 }

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4f5e574-d75c-4dcb-a75a-9d2f88254730" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c4f5e574-d75c-4dcb-a75a-9d2f88254730" name="Changes" comment="incluido private set e inner class">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/digonebank/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/digonebank/Pessoa.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,8 +77,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656286689158</updated>
-      <workItem from="1656286690739" duration="2593000" />
+      <workItem from="1656286690739" duration="2915000" />
     </task>
+    <task id="LOCAL-00001" summary="incluido private set e inner class">
+      <created>1656296519195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656296519195</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,5 +102,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="incluido private set e inner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="incluido private set e inner class" />
   </component>
 </project>
