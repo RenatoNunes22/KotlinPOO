@@ -1,8 +1,8 @@
 package digonebank
 
-import sun.jvm.hotspot.oops.BitData
+
 import java.math.BigDecimal
-import java.util.BitSet
+
 
 class Conta(
     val agencia: String,
